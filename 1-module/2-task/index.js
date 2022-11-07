@@ -9,7 +9,11 @@ function print(text) {
  * Эту функцию нужно поменять так,
  * чтобы функция sayHello работала корректно
  */
+
+
 function isValid(name) {
+  let result = (name != "null" && typeof name === "string" && (name.length > 3) && (name.indexOf(' ') === -1)) ? true : false;
+  return result;
   // ваш код...
 }
 
