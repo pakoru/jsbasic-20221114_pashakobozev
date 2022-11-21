@@ -12,9 +12,8 @@ function print(text) {
 
 
 function isValid(name) {
-  let result = (name != "null" && typeof name === "string" && (name.length > 3) && (name.indexOf(' ') === -1)) ? true : false;
-  return result;
-  // ваш код...
+  return name !== null && (name.length > 3) && (name.indexOf(' ') === -1);
+    // ваш код...
 }
 
 function sayHello() {
