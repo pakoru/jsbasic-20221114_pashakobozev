@@ -1,8 +1,8 @@
 function factorial(n) {
   if (n == 0) return 1;
-  let a = n;
+  let answer = n;
   for (let i = 1; i < n; i++) {
-    a = a * i;
+    answer = answer * i;
   }
-  return a;
+  return answer;
 }
