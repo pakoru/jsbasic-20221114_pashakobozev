@@ -1,24 +1,20 @@
 let calculator = {
-  
+
   firstValue: 0,
   secondValue: 0,
 
-  read(a,b){
+  read(a, b) {
     calculator.firstValue = a;
     calculator.secondValue = b;
   },
-  sum(){
+  sum() {
     return this.firstValue + this.secondValue;
   },
-  mul(){
+  mul() {
     return this.firstValue * this.secondValue;
   }
   // ваш код
 };
-
-calculator.read(a,b) = function(){
-
-}
 
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
 window.calculator = calculator; // делает ваш калькулятор доступным глобально
