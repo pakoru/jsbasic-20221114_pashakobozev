@@ -4,5 +4,4 @@ function namify(users) {
     answer.push(users[i].name);
   }
   return answer;
-  // ваш код...
 }
